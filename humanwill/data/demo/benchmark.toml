@@ -1,0 +1,17 @@
+version = 1
+pack = "demo-pack/manifest.json"
+workspace = ".local/humanwill-runs"
+concurrency = 2
+
+[[models]]
+id = "demo-echo"
+provider = "mock"
+model = "echo"
+# fail_cases = ["D02"]  # Optional simulation of a candidate failure.
+
+[judge]
+id = "demo-judge"
+provider = "mock"
+model = "exact"
+# fail_cases = ["D03"]  # Answer saved; judgment fails independently.
+# abstain_fr_cases = ["D01"]  # Separate FR/usefulness denominators.

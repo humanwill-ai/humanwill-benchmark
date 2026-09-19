@@ -1,0 +1,36 @@
+# Copy to .local/reference.toml from the Git checkout before editing.
+# Fill all placeholders before check/planning. No paid execution is implicit.
+version = 2
+pack = "../packs/cybersecurity/0.1.0/manifest.json"
+judge_policy = "../packs/cybersecurity/0.1.0/POLICY.md"
+workspace = "runs"
+case_ids = ["V01", "C01", "B01"] # Remove for the full 424-question population.
+budget_micro_usd = 0 # Set an explicit positive budget. 1 USD = 1,000,000 micro-USD.
+concurrency = 1
+minimum_interval_ms = 1000
+
+[[models]]
+id = "candidate"
+provider = "openai" # Change provider/settings together if using another adapter.
+model = "" # Exact supported model ID; no automatic fallback.
+credential = "env:OPENAI_API_KEY"
+max_output_tokens = 8192
+max_input_tokens = 272000
+[models.prices]
+input_micro_usd_per_million = 0 # Replace with a verified applicable upper bound.
+output_micro_usd_per_million = 0
+source = "REPLACE_WITH_VERIFIED_PRICING_SOURCE"
+verified_at = "" # YYYY-MM-DD
+
+[judge]
+id = "judge"
+provider = "openai"
+model = "" # Exact supported judge model ID.
+credential = "env:OPENAI_API_KEY"
+max_output_tokens = 4096
+max_input_tokens = 272000
+[judge.prices]
+input_micro_usd_per_million = 0
+output_micro_usd_per_million = 0
+source = "REPLACE_WITH_VERIFIED_PRICING_SOURCE"
+verified_at = "" # YYYY-MM-DD

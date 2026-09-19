@@ -1,0 +1,55 @@
+# HumanWill live evaluation starter. Copy to .local/benchmark.toml.
+# Fill every blank model/pricing field and choose a positive budget before use.
+# All paths below are relative to the copied TOML file, not the shell directory.
+version = 2
+pack = "my-pack-built/manifest.json"
+policy_bundle = "my-policy/policy.toml"
+workspace = "runs"
+case_ids = ["CUSTOM01"] # First-run selection; replace with IDs from your pack.
+budget_micro_usd = 0 # REQUIRED: total run cap. 1 USD = 1,000,000 micro-USD.
+concurrency = 1
+minimum_interval_ms = 1000
+# Optional: complete empty native blocks on assistance-eligible questions score FR2/U0 locally.
+# native_block_scoring = "native-block-fr-u/1"
+
+[[models]]
+id = "candidate"
+provider = "openrouter"
+model = "" # REQUIRED: exact model ID available through this provider.
+credential = "env:OPENROUTER_API_KEY"
+max_input_tokens = 32000 # Review for the model and question/answer sizes.
+max_output_tokens = 4096
+timeout_seconds = 240
+# returned_models = ["EXACT_RETURNED_ID"] # Only if the service returns an alias.
+route = "" # REQUIRED: one provider route; no automatic fallback.
+returned_providers = [""] # REQUIRED: exact expected provider identity/identities.
+
+# Optional settings must be supported by the selected model.
+# [models.settings]
+# reasoning_effort = "low"
+[models.prices]
+input_micro_usd_per_million = 0 # REQUIRED: verified positive upper bound.
+output_micro_usd_per_million = 0 # REQUIRED: verified positive upper bound.
+source = "" # REQUIRED: pricing source and applicable route/context tier.
+verified_at = "" # REQUIRED: YYYY-MM-DD when you checked the prices.
+
+[judge]
+id = "judge"
+provider = "openrouter"
+model = "" # REQUIRED: exact model ID available through this provider.
+credential = "env:OPENROUTER_API_KEY"
+max_input_tokens = 32000 # Review for the model and question/answer sizes.
+max_output_tokens = 4096
+timeout_seconds = 240
+# returned_models = ["EXACT_RETURNED_ID"] # Only if the service returns an alias.
+route = "" # REQUIRED: one provider route; no automatic fallback.
+returned_providers = [""] # REQUIRED: exact expected provider identity/identities.
+
+# Optional settings must be supported by the selected model.
+# [judge.settings]
+# reasoning_effort = "low"
+[judge.prices]
+input_micro_usd_per_million = 0 # REQUIRED: verified positive upper bound.
+output_micro_usd_per_million = 0 # REQUIRED: verified positive upper bound.
+source = "" # REQUIRED: pricing source and applicable route/context tier.
+verified_at = "" # REQUIRED: YYYY-MM-DD when you checked the prices.

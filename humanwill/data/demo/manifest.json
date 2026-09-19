@@ -1,0 +1,11 @@
+{
+  "cases_file": "cases.jsonl",
+  "cases_sha256": "2fe550ead5f06ae1e92581cb227a0125ad46208c2087ff48f605d806194b7637",
+  "count": 3,
+  "domain": "demonstration",
+  "format": "humanwill.message-pack/1",
+  "id": "humanwill-demo",
+  "license": "CC-BY-4.0",
+  "review_status": "local_demo; independent_review_not_claimed",
+  "version": "2"
+}

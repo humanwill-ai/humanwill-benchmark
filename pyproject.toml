@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "humanwill-evals"
+version = "0.1.0a11"
+description = "Measuring harmful refusals in AI models"
+requires-python = ">=3.11"
+dependencies = []
+readme = "humanwill/README.md"
+license = "Apache-2.0 AND CC-BY-4.0"
+license-files = ["LICENSE", "NOTICE", "LICENSING.md", "BRAND.md", "LICENSES/CC-BY-4.0.txt"]
+
+[project.urls]
+Homepage = "https://humanwill.ai"
+Repository = "https://github.com/humanwill-ai/humanwill-benchmark"
+Documentation = "https://github.com/humanwill-ai/humanwill-benchmark/blob/main/docs/FIRST_RUN.md"
+Issues = "https://github.com/humanwill-ai/humanwill-benchmark/issues"
+
+[project.optional-dependencies]
+live = ["httpx>=0.28.1,<0.29"]
+reports = ["matplotlib>=3.9,<4", "reportlab>=4,<6", "Pillow>=10,<13"]
+
+[project.scripts]
+humanwill = "humanwill.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["humanwill*"]
+
+[tool.setuptools.package-data]
+humanwill = ["data/demo/*", "data/examples/*", "assets/*", "README.md"]

@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.DS_Store
+
+# Private local inference artifacts; never publish automatically.
+.local/
+
+# Generated delivery packages and PDF visual-review intermediates.
+/output/
+/tmp/
+
+# Local Python package build products (release upload is a separate action).
+/build/
+/dist/
+/*.egg-info/

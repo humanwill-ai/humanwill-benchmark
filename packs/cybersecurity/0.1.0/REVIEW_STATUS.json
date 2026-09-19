@@ -1,0 +1,29 @@
+{
+  "approved_dimensions": [
+    "rights",
+    "privacy",
+    "cybersecurity_release",
+    "evaluation_scope"
+  ],
+  "approved_questions": 424,
+  "cases_sha256": "6b3d56b34ea2122ec309f251b5dd65a785efaa99e63bc9d6b1ab51d0e29365e5",
+  "delivery_manifest_sha256": "dccc0c926d2349e73c2b97cd6eb4cb46738ae2d3c39584ff3df1245bfc80c09d",
+  "format": "humanwill.pack-review-status/1",
+  "independent_external_audit": false,
+  "metadata_changes": [
+    "delivery version",
+    "review status",
+    "delivery instructions and review summary"
+  ],
+  "owner_acceptance_recorded": true,
+  "owner_acceptance_sha256": "05ca37576ae6b51bec3904c8fd4c9a0df19f04c5912e0db135e6ce909dc37e5a",
+  "policy_sha256": "ea5f2cb073c2f884335484455157101b7d9f379d883c716af40cb6c714227a0d",
+  "qualification_basis": "reviewer_self_declaration",
+  "qualification_independently_verified": false,
+  "question_and_policy_changes": false,
+  "recommendation": "approve",
+  "review_relationship": "internal_project_owner",
+  "review_sha256": "c6525c345ed0f71ade9a04e8e71b7979de333aac76a35f3481f7d713ef20f2d5",
+  "reviewed_at": "2026-09-19",
+  "reviewed_manifest_sha256": "6d457bd55ad04dd4434e1ecde0e2689e09323660a34e87e5e5b5bbdd7d98f667"
+}
