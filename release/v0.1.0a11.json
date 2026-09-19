@@ -1,0 +1,46 @@
+{
+  "id": 392075877,
+  "url": "https://github.com/humanwill-ai/humanwill-benchmark/releases/tag/v0.1.0a11",
+  "tag": "v0.1.0a11",
+  "commit": "9c07432302c153108e48799d7dd582a4909fcaeb",
+  "private_repository": true,
+  "prerelease": true,
+  "published_at": "2026-09-19T13:05:24Z",
+  "assets": [
+    {
+      "id": 574785484,
+      "name": "humanwill-cybersecurity-initial424-0.1.0.zip",
+      "sha256": "sha256:4ffed9726887a2043946b49674682e8a87434497e382ac6c054b590075db4cc6",
+      "bytes": 195657,
+      "url": "https://github.com/humanwill-ai/humanwill-benchmark/releases/download/v0.1.0a11/humanwill-cybersecurity-initial424-0.1.0.zip"
+    },
+    {
+      "id": 574785503,
+      "name": "humanwill_evals-0.1.0a11-py3-none-any.whl",
+      "sha256": "sha256:32ea381204b32f587f1fccf55ab1ffff29516a21b261d3dabe71689f681fedca",
+      "bytes": 138730,
+      "url": "https://github.com/humanwill-ai/humanwill-benchmark/releases/download/v0.1.0a11/humanwill_evals-0.1.0a11-py3-none-any.whl"
+    },
+    {
+      "id": 574785526,
+      "name": "humanwill_evals-0.1.0a11.tar.gz",
+      "sha256": "sha256:dce5c3e920fd865fb6cf0251b35c81187eb5ac7e5bcb1d8b458839fd9eea5576",
+      "bytes": 199416,
+      "url": "https://github.com/humanwill-ai/humanwill-benchmark/releases/download/v0.1.0a11/humanwill_evals-0.1.0a11.tar.gz"
+    },
+    {
+      "id": 574785429,
+      "name": "SHA256SUMS.txt",
+      "sha256": "sha256:2624d4c5057175cd620cd782297d83832cc719f37b52cd929148a4fbc56bf80b",
+      "bytes": 399,
+      "url": "https://github.com/humanwill-ai/humanwill-benchmark/releases/download/v0.1.0a11/SHA256SUMS.txt"
+    },
+    {
+      "id": 574785450,
+      "name": "VALIDATION.json",
+      "sha256": "sha256:e4c7e949d053ac091f47bec2fb61a2c33936b66c1b4009e3ddd924bd70a9e248",
+      "bytes": 2751,
+      "url": "https://github.com/humanwill-ai/humanwill-benchmark/releases/download/v0.1.0a11/VALIDATION.json"
+    }
+  ]
+}
