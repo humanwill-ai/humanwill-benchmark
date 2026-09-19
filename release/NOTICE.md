@@ -4,8 +4,8 @@ HumanWill Benchmark — Measuring harmful refusals in AI models.
 
 The [v0.1.0a11 product release](https://github.com/humanwill-ai/humanwill-benchmark/releases/tag/v0.1.0a11)
 provides the framework wheel, curated source archive and approved reference-pack
-ZIP to users with repository access. This repository remains private until the
-owner explicitly authorizes public launch.
+ZIP. GitHub is the distribution channel; PyPI is deferred. The software and
+question-pack artifacts preserve their original versioned bytes and notices.
 
 Software, documentation, examples, tests and tools use Apache 2.0; the harmless
 demo and HumanWill's licensable rights in the reference pack use CC BY 4.0.

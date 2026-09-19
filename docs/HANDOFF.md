@@ -1,5 +1,32 @@
 # Product handoff
 
+## GitHub-only public launch prepared — awaiting owner confirmation
+
+The owner selected GitHub-only distribution, deferred PyPI and explicitly asked
+for confirmation immediately before the visibility switch. Product repository
+humanwill-ai/humanwill-benchmark remains private. Do not change visibility until
+that confirmation arrives; research humanwill-ai/humanwill-evals stays private.
+
+Updated current README, installation/reference/pack/release guides, CLI docs and
+rights notice for GitHub distribution. Retained the six-step future PyPI plan in
+docs/PYPI_PLAN.md. The CLI, engine, 424-question pack, policy and licenses are
+unchanged. Existing release/tag v0.1.0a11 and its five assets stay immutable;
+embedded private-access wording records their original issuance. Current release
+page links to maintained guides instead of requiring old research-repo access.
+
+Preflight passed: the approved 424-question pack and policy hashes match; all
+121 current local documentation links resolve. Reviewed all 90 reachable blobs
+from the existing two-commit product history, the five release asset hashes and
+all six existing Actions runs' downloadable logs. No unexpected repository paths,
+recognized credential patterns or full reference-question messages were found
+in logs. There are no issues, PRs, Pages site or uploaded Actions artifacts.
+This is a scoped content/integrity check, not comprehensive security certification.
+The preparation commit must pass both hosted workflows before confirmation.
+Receipts remain under ignored .local/github-launch.
+After confirmation: recheck the approved commit/refs and release assets, change
+only this product repository to public, then verify anonymous source/release
+access and downloads; record completion. No PyPI/TestPyPI upload or paid model run.
+
 ## Product private alpha v0.1.0a11 complete — 2026-09-19
 
 Owner approved steps 1–4 and selected HumanWill Benchmark with subtitle

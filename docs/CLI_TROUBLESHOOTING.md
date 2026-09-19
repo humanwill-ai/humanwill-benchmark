@@ -14,12 +14,12 @@ when diagnosing failures; do not parse human progress prose.
 | Symptom | Action |
 | --- | --- |
 | `humanwill` not found | Activate the environment used for installation, or run its `python -m humanwill`. |
-| No source tree / `pip install .` fails | Download the curated source archive or wheel from the [private release](https://github.com/humanwill-ai/humanwill-benchmark/releases/tag/v0.1.0a11) using repository access. Run `pip install .` from the extracted source directory containing `pyproject.toml`, or install the wheel by path. |
+| No source tree / `pip install .` fails | Download the curated source archive or wheel from the [GitHub release](https://github.com/humanwill-ai/humanwill-benchmark/releases/tag/v0.1.0a11). Run `pip install .` from the extracted source directory containing `pyproject.toml`, or install the wheel by path. |
 | `already_exists` during the demo or export | Choose a new demo/run/output name and update the commands. Init, run creation and exports do not overwrite previous work. |
 | `missing_dependency` | Install `.[live]` for HTTP or `.[reports]` for visuals; base JSON/CSV and HTML question readers need neither. Use the wheel path with the same extra when installing a wheel. |
 | Invalid configuration | Run `check --config FILE --json`; use TOML version 2 and documented fields. Paths are relative to the TOML file. Secrets belong in environment variables or Keychain, never TOML or CLI arguments. |
 | `valid: true` but execution lacks credentials | Check every `credential_references` entry and `live_dependency_available`; configuration validity does not authenticate or guarantee a key is present. Set environment variables in the same terminal. `.env` is not loaded automatically. |
-| Missing pack/policy | Supply the permitted original files for an initial run. The packaged demo does not contain the private benchmark. Inspection/recovery of an existing run uses its verified frozen inputs where supported. |
+| Missing pack/policy | Supply the permitted original files for an initial run. The software package contains only the demo; use the reference pack from the Git checkout or release ZIP. Inspection/recovery of an existing run uses its verified frozen inputs where supported. |
 | Provider rejects a parameter | Inspect the exact request/outcome locally. Correct the model-specific settings or returned-identity allowlist explicitly; there is no silent parameter removal or fallback. |
 | `unsafe_path` | Use a real local path without symlinks. On macOS, `/tmp` and `/var` may be aliases; resolve the parent path before selecting a new export directory. |
 

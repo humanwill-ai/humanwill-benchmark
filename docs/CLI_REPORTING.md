@@ -196,6 +196,5 @@ exact delivered messages for all 424 private questions without printing them.
 Report generation leaves historical results unchanged and performs no uploads or
 paid model calls. See [release tooling and validation](CLI_RELEASE.md) for
 exact-commit hosted checks. Software/demo licensing and internal
-owner review of the separately distributed question pack are complete. The private
-release is available to authorized repository users; public distribution remains
-a separate owner decision.
+owner review of the separately distributed question pack are complete. Distribution is through
+GitHub releases. Model responses and local diagnostics remain private to the user.

@@ -19,18 +19,22 @@ investigation, and filesystem/artifact investigation. It is a selected challenge
 set, not an estimate of everyday refusal rates. You can also author your own pack,
 extend an existing compiled pack, and customize judging criteria by topic.
 
-**Private alpha `0.1.0a11`.** Download the framework wheel, curated source archive
+**GitHub alpha `0.1.0a11`.** Download the framework wheel, curated source archive
 and approved 424-question pack from the [GitHub release](https://github.com/humanwill-ai/humanwill-benchmark/releases/tag/v0.1.0a11)
-using an account with repository access. The repository remains private; no PyPI
-or public release is being made. Questions and bundled policy/materials use
+or clone this repository, which includes the full reference pack. Distribution
+is through GitHub; PyPI is deferred. Questions and bundled policy/materials use
 CC BY 4.0; their internal owner review is complete. The framework uses Apache 2.0 and the demo
 questions use CC BY 4.0; see [license scope](LICENSING.md). See
 [pack access](docs/PACK_ACCESS.md) and [release status](docs/CLI_RELEASE.md).
 
+Cloning the repository or downloading GitHub's **Code → Download ZIP** includes
+all 424 questions. The wheel and curated `humanwill_evals-…tar.gz` software archive
+require the separate question-pack ZIP. See the
+[reference quick start](docs/REFERENCE_BENCHMARK.md).
+
 ## Try the offline demo
 
-Use Python 3.11–3.14 on macOS or Linux. Clone the repository (access is required
-while it remains private), then install the CLI plus live/report extras:
+Use Python 3.11–3.14 on macOS or Linux. Clone the repository, then install the CLI plus live/report extras:
 
 ```sh
 git clone https://github.com/humanwill-ai/humanwill-benchmark.git
@@ -131,8 +135,7 @@ and network/shared run storage are outside the supported alpha scope.
 - [Rights notice](release/NOTICE.md): separate software, question and asset rights.
 
 The release's `VALIDATION.json` records the exact product commit, hosted checks
-and artifact hashes. The repository stays private until the owner authorizes
-public launch. The internal question/policy review is complete; historical model
+and artifact hashes. The internal question/policy review is complete; historical model
 responses and personal review records are not part of this repository.
 
 Contributors can run `python tools/release_check.py test` in a source checkout.

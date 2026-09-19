@@ -92,7 +92,7 @@ explicit returned-identity allowlists belong to each model configuration.
 
 Compiled assistance-focused cybersecurity and exact frozen-message packs are
 supported. The 424-question reference pack and exact bundled policy have completed
-internal owner review and are distributed separately in the private GitHub release
+internal owner review and are distributed separately in the GitHub release
 under CC BY 4.0 for HumanWill's licensable rights. The software wheel includes only
 the harmless demo. [Pack access](../docs/PACK_ACCESS.md) explains the approved
 reference delivery and its unchanged historical provenance.
@@ -239,15 +239,15 @@ demo content uses CC BY 4.0. See [license scope](../LICENSING.md).
 
 ## Release validation and support
 
-Package `0.1.0a11` is a private alpha. The [GitHub release](https://github.com/humanwill-ai/humanwill-benchmark/releases/tag/v0.1.0a11)
+Package `0.1.0a11` is a GitHub-distributed alpha. The [GitHub release](https://github.com/humanwill-ai/humanwill-benchmark/releases/tag/v0.1.0a11)
 provides the wheel, curated source archive and separate approved question pack
-to authorized repository users. See the source checkout's
+for installation without PyPI. See the source checkout's
 [release matrix and publication gates](../docs/CLI_RELEASE.md),
 [troubleshooting](../docs/CLI_TROUBLESHOOTING.md) and
 [pack access](../docs/PACK_ACCESS.md). Harmless demo, frozen cybersecurity and compiled assistance-focused cybersecurity
 question packs are supported. Local authoring/extensions are available; arbitrary
-third-party formats are not supported. Software and reference-pack downloads
-require repository access; public distribution is a separate future launch.
+third-party formats are not supported. The Git checkout includes the reference pack. Wheel and curated software source
+archive installations use the separate question-pack ZIP from the same release.
 
 The selected software is Apache 2.0, with [HumanWill attribution](../NOTICE).
 The demo content uses CC BY 4.0; trademark rights remain separate under

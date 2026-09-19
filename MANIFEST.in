@@ -79,3 +79,4 @@ include examples/reference.toml
 include packs/README.md
 include tools/check_reference_pack.py
 include .github/workflows/reference-pack.yml
+include docs/PYPI_PLAN.md

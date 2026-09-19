@@ -77,3 +77,4 @@ examples/reference.toml
 packs/README.md
 tools/check_reference_pack.py
 .github/workflows/reference-pack.yml
+docs/PYPI_PLAN.md

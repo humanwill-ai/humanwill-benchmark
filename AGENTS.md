@@ -24,5 +24,8 @@ adapters, scoring, provenance, duplicate handling and metric denominators.
 Run the offline release gate and reference-pack check as documented in
 docs/CLI_RELEASE.md. Record decisions and substantial handoffs. Never commit,
 push, upload, publish or change visibility without the user's explicit permission.
-Current owner authorization covers this private repository and private alpha
-release; public visibility and PyPI publication require a later instruction.
+The owner selected GitHub-only public distribution, with explicit final
+confirmation required before changing this product repository from private to
+public. Preparation and private commit/push are authorized; do not infer that
+confirmation from passing tests. Research stays private. PyPI/TestPyPI are deferred.
+See docs/HANDOFF.md for the current launch state.

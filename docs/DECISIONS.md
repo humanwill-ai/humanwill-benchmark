@@ -21,3 +21,18 @@ and frozen results remain intact. Avoid maintaining two competing engine copies.
 CLI and agent API parity, inspectable raw evidence and selective retries remain
 core design requirements. The wheel/curated sdist exclude the reference pack;
 the Git checkout and separate unchanged ZIP provide it explicitly.
+
+## P002 — GitHub-only launch, PyPI deferred, 2026-09-19
+
+The owner selected public distribution through the existing product GitHub repo
+and requested a final confirmation before switching its visibility. Prepare
+current docs, retain the PyPI plan, inspect the exact repository/history/release
+and run validation while private. Ask only when the proposed switch is concrete
+and ready. Confirmation has not yet been received during preparation.
+
+Publish the approved 424-question pack with the framework by changing only the
+product repo visibility after confirmation. The research repo stays private.
+Existing v0.1.0a11 tag and artifacts remain immutable; update maintained guides
+and release-page instructions, explaining historical private-access wording in
+archives. No new engine version, scoring changes, paid model calls, PyPI or
+TestPyPI uploads are required. Retain the latter plan in docs/PYPI_PLAN.md.

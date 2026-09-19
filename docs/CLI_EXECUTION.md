@@ -237,9 +237,8 @@ release validates the standalone tests on macOS/Linux × Python 3.11–3.14,
 installed CLI/API behavior and the unchanged reference pack. See
 [release validation](CLI_RELEASE.md) for exact commit and hosted run links.
 Software/demo licenses are selected. The separately distributed 424-question pack
-and exact policy have completed internal owner review. Both framework and pack
-are downloadable with private repository access; public distribution is not yet
-authorized.
+and exact policy have completed internal owner review. Framework and pack
+downloads are provided through the GitHub release; PyPI is deferred.
 
 A separately scoped installed CLI live smoke passed for selected OpenAI,
 Anthropic and OpenRouter pairs, including a9 judge-only recovery after fenced-JSON

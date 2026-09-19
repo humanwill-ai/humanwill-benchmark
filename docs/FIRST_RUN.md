@@ -16,7 +16,7 @@ Choose a starting point:
 | --- | --- | --- |
 | Offline demo | Python and the software | None; simulated scores. |
 | One-question live run | Your local pack, API key(s), model/judge choices, prices and budget | Candidate generation and judging are paid provider requests. |
-| Full reference benchmark | The separate 424-question pack plus live configuration | Paid candidate/judge requests; pack download requires private repository access. |
+| Full reference benchmark | The separate 424-question pack plus live configuration | Paid candidate/judge requests; questions come with the Git checkout or separate ZIP. |
 
 ## Install
 
@@ -24,11 +24,10 @@ Use CPython 3.11–3.14 on macOS or Linux and a local filesystem. The commands b
 work in Bash or zsh. Native Windows and shared/network run storage are outside
 the alpha support scope.
 
-**Distribution status:** the [private GitHub release](https://github.com/humanwill-ai/humanwill-benchmark/releases/tag/v0.1.0a11)
+**Distribution status:** the [GitHub release](https://github.com/humanwill-ai/humanwill-benchmark/releases/tag/v0.1.0a11)
 provides `humanwill_evals-0.1.0a11-py3-none-any.whl`, the curated
 `humanwill_evals-0.1.0a11.tar.gz` source archive, and
-`humanwill-cybersecurity-initial424-0.1.0.zip`. Sign in with an account that has
-repository access. Download the software and, for reference runs, the separate
+`humanwill-cybersecurity-initial424-0.1.0.zip`. Download the software and, for reference runs, the separate
 question pack. Check downloaded files against `SHA256SUMS.txt` from that release.
 No PyPI publication is part of this alpha.
 
@@ -284,7 +283,7 @@ With a Git checkout, the pack is already present: follow the
 source-archive installations, use the separate ZIP as described below.
 
 Download `humanwill-cybersecurity-initial424-0.1.0.zip` from the
-[private release](https://github.com/humanwill-ai/humanwill-benchmark/releases/tag/v0.1.0a11) while signed in with repository access.
+[GitHub release](https://github.com/humanwill-ai/humanwill-benchmark/releases/tag/v0.1.0a11).
 Verify it against the release's `SHA256SUMS.txt`, then unzip it. This reviewed pack
 is separate from the software wheel. Keep its manifest, cases, policy, license,
 attribution and review metadata together. Copy the extracted directory to

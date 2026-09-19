@@ -5,13 +5,15 @@
 [HumanWill Benchmark v0.1.0a11](https://github.com/humanwill-ai/humanwill-benchmark/releases/tag/v0.1.0a11)
 is the first release in the separate product repository. It provides a framework
 wheel, curated software source archive, unchanged approved 424-question ZIP,
-SHA256SUMS.txt and VALIDATION.json. Repository access is required while private.
+SHA256SUMS.txt and VALIDATION.json.
 The CLI is `humanwill`; the distribution is `humanwill-evals`.
 
 The release's VALIDATION.json records the exact commit, hosted run URLs and
 artifact hashes. Check that evidence rather than treating earlier research CI
-as proof of this release. The repository and release remain private; no public
-visibility change, PyPI upload or new paid model execution is part of this work.
+as proof of this release. The artifacts were originally issued while the repository
+was private; their embedded access wording and validation metadata record that
+historical state. They remain unchanged. These maintained guides provide current
+GitHub installation instructions. PyPI and TestPyPI distribution are deferred.
 
 Software uses Apache 2.0; demo and approved reference content use CC BY 4.0.
 See [license scope](../LICENSING.md). The pack retains its internal owner review
@@ -70,10 +72,12 @@ calibration, overall model safety or provider invoice accuracy.
 
 ## Public launch and subsequent work
 
-The clean destination is prepared and validated while private. A later owner
-instruction can authorize making only this product repository public; the
-research repository remains private. At that point update access wording and
-verify unauthenticated installation/download links. PyPI can follow separately.
+The owner selected GitHub-only distribution and requested a final confirmation
+before this product repository changes visibility. See the current
+[handoff](HANDOFF.md) for the launch status. The research repository remains private.
+After the switch, verify installation, source checkout and all five release
+asset downloads without authentication. The [PyPI plan](PYPI_PLAN.md) is retained
+for later; no PyPI or TestPyPI upload is part of this launch.
 
 Recommended: a small external-user onboarding pilot and a representative
 human-versus-judge comparison. Deferred: full company-policy compliance, separate

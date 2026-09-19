@@ -8,7 +8,7 @@ The installable wheel includes three harmless demonstration questions. The
 approved 424-question pack is also available in this Git repository under
 `packs/cybersecurity/0.1.0/`, and as a separate ZIP in the
 [product release](https://github.com/humanwill-ai/humanwill-benchmark/releases/tag/v0.1.0a11).
-Repository access is required while the project remains private. Follow the
+Follow the
 [reference benchmark quick start](REFERENCE_BENCHMARK.md).
 
 The pack's accepted 0.1.0 delivery is preserved byte-for-byte, including its
@@ -71,8 +71,8 @@ CC BY attribution, file hashes and a redacted review summary. The owner approved
 all four review dimensions for all 424 questions,
 the exact bundled policy, and the overall release recommendation on 2026-09-19.
 This is an internal review with self-declared expertise, not an independently
-verified external audit or a legal certification. The pack is not publicly
-available; review acceptance is separate from an instruction to publish. The
+verified external audit or a legal certification. Review acceptance is separate
+from publication authorization. The
 candidate preserves the frozen research pack and its historical
 `unselected` metadata under each original record, while recording the current
 question license separately. The same CC BY 4.0 terms now cover the HumanWill-authored
@@ -82,8 +82,8 @@ the expert-review requirement. The local rc2 archive includes an exact-version
 review template, review guide and example configuration. The completed record and
 owner acceptance are retained privately with exact artifact hashes. The accepted delivery updates version/review metadata only, with exact cases and
 policy preserved; REVIEW_STATUS.json and REVIEWED_MANIFEST.json record the binding.
-Only the approved pack and redacted review summary are attached to the private release. No clean held-out
-or contamination-free claim follows from private storage.
+Only the approved pack and redacted review summary are attached to the GitHub release. This is a disclosed challenge set, with no clean
+held-out or contamination-free claim.
 
 Suggested attribution: “Contains questions from the HumanWill Cybersecurity
 Benchmark, version 0.1.0, by HumanWill (https://humanwill.ai), licensed under
