@@ -1,5 +1,38 @@
 # Product handoff
 
+## GitHub public launch completed — 2026-09-19
+
+Owner explicitly confirmed the visibility change. HumanWill Benchmark is now
+public at https://github.com/humanwill-ai/humanwill-benchmark.
+The research repository humanwill-ai/humanwill-evals remains private. PyPI and
+TestPyPI are deferred; the saved plan remains docs/PYPI_PLAN.md in the product.
+
+Switched the exact approved product repository (ID 1377161784) at preparation
+commit c53924abd367bfcd6e14a59609aa7b89f18c0672 after rechecking refs, successful
+CI, release identity/body and every asset digest. The approved preparation passed
+all eight standalone matrix jobs (35451242825) and the reference-pack job
+(35451242879). Preflight inspected 106 reachable blobs and eight Actions runs.
+
+Post-switch verification used no authentication: repository/release pages,
+a fresh Git clone with credential helpers disabled, GitHub's source ZIP and all
+five release asset downloads succeeded. Both clone and source ZIP include all
+10 unchanged reference-pack files. Every release download matches its SHA-256
+and size; the installed CLI validated all 424 questions from the clone and ZIP.
+Anonymous research-repository API access returns 404; authenticated metadata
+confirms it is still private. No paid model requests or PyPI uploads occurred.
+
+Release v0.1.0a11, its tag and five artifact bytes remain unchanged. Its embedded
+private-access language and private_repository metadata describe its original
+issuance; maintained guides and the release page describe current GitHub access.
+The CLI, engine, approved questions, judging policy and licenses are unchanged.
+Local confirmation, switch and anonymous-download receipts live under the
+product checkout's ignored .local/github-launch/. This status commit records
+completion; use Actions for validation of later commits.
+
+Next optional work: external-user onboarding pilot and human-versus-judge
+calibration. Keep future private research, model responses and submissions out
+of the public product repo. GitHub is the only current distribution channel.
+
 ## GitHub-only public launch prepared — awaiting owner confirmation
 
 The owner selected GitHub-only distribution, deferred PyPI and explicitly asked

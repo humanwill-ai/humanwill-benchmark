@@ -36,3 +36,8 @@ Existing v0.1.0a11 tag and artifacts remain immutable; update maintained guides
 and release-page instructions, explaining historical private-access wording in
 archives. No new engine version, scoring changes, paid model calls, PyPI or
 TestPyPI uploads are required. Retain the latter plan in docs/PYPI_PLAN.md.
+
+Update: the owner explicitly confirmed the switch on 2026-09-19. The exact
+prepared product repository is public; anonymous access/download checks passed.
+Research stays private, and PyPI/TestPyPI remain deferred. Original release
+artifacts and private-issuance receipts are preserved as historical evidence.

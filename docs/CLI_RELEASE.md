@@ -72,12 +72,13 @@ calibration, overall model safety or provider invoice accuracy.
 
 ## Public launch and subsequent work
 
-The owner selected GitHub-only distribution and requested a final confirmation
-before this product repository changes visibility. See the current
-[handoff](HANDOFF.md) for the launch status. The research repository remains private.
-After the switch, verify installation, source checkout and all five release
-asset downloads without authentication. The [PyPI plan](PYPI_PLAN.md) is retained
-for later; no PyPI or TestPyPI upload is part of this launch.
+The owner confirmed GitHub-only public launch on 2026-09-19. This product
+repository is public; the research repository remains private. Anonymous
+repository/release access, cloning, GitHub source ZIP and all five release
+asset downloads passed verification. The installed CLI validated the downloaded
+424-question pack. See the [handoff](HANDOFF.md) for exact evidence.
+The [PyPI plan](PYPI_PLAN.md) is retained for later; no PyPI or TestPyPI upload
+is part of this launch.
 
 Recommended: a small external-user onboarding pilot and a representative
 human-versus-judge comparison. Deferred: full company-policy compliance, separate

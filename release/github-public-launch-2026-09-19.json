@@ -1,0 +1,21 @@
+{
+  "repository": "humanwill-ai/humanwill-benchmark",
+  "repository_id": 1377161784,
+  "url": "https://github.com/humanwill-ai/humanwill-benchmark",
+  "visibility": "public",
+  "prepared_commit": "c53924abd367bfcd6e14a59609aa7b89f18c0672",
+  "verified_at": "2026-09-19T15:21:25.198002+00:00",
+  "research_repository_private": true,
+  "pypi_published": false,
+  "anonymous_verification": {
+    "repository_public": true,
+    "anonymous_repo_and_release_pages": true,
+    "anonymous_clone": true,
+    "anonymous_github_source_zip_includes_pack": true,
+    "release_assets_downloaded_and_verified": 5,
+    "installed_cli_validated_questions": 424,
+    "research_anonymous_status": 404,
+    "paid_model_calls": 0,
+    "pypi_published": false
+  }
+}
