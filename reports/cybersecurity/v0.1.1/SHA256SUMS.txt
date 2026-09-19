@@ -1,0 +1,3 @@
+f1ac5a59ac70b4fde277b9a3c328e7914cb8303e3f131a0ee33130f516ef403f  humanwill-cybersecurity-report-v0.1.1.pdf
+ffea16a6e9891b7037e00a83428b1ee17030276a918dce1d49d158d50fcc3a2f  refusal-columns-spotlight.png
+c25488934c17f788299fcde1fed8b1d06856d109d4a5619145b920ba6ffe8e70  LICENSE.md

@@ -48,6 +48,16 @@ for the same file and does not impose CC terms on the framework. The standard
 license texts retain their own terms; their inclusion does not make them
 HumanWill-authored content.
 
+## Published benchmark report: CC BY 4.0
+
+The report prose and spotlight figure in `reports/cybersecurity/v0.1.1/`, including
+its report landing README, use CC BY 4.0 under the [scoped report notice](https://github.com/humanwill-ai/humanwill-benchmark/blob/main/reports/cybersecurity/v0.1.1/LICENSE.md).
+Credit **HumanWill - https://humanwill.ai**, retain the license and indicate
+changes. Trademark rights remain separate. This grant does not relicense model
+responses, private research or third-party material. The report directory is
+available in the Git checkout and excluded from the framework wheel and curated
+software source archive.
+
 ## Dependencies and outputs
 
 Third-party dependencies and embedded third-party material retain their original

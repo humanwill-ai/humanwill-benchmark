@@ -28,3 +28,8 @@ The source inventory and checksum checks limit accidental inclusion; they are
 not comprehensive secret detection, legal review or security certification.
 Keep private submissions, credentials and model responses out of issues and
 pull requests. No private submission channel or support service is promised.
+
+The separately published [benchmark report and spotlight image](https://github.com/humanwill-ai/humanwill-benchmark/tree/main/reports/cybersecurity/v0.1.1)
+use their scoped CC BY 4.0 notice. They are available in the Git checkout and
+excluded from the software wheel and curated source archive. The report preserves
+its frozen results and includes a current-access note on its landing page.

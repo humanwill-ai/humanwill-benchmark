@@ -41,3 +41,19 @@ Update: the owner explicitly confirmed the switch on 2026-09-19. The exact
 prepared product repository is public; anonymous access/download checks passed.
 Research stays private, and PyPI/TestPyPI remain deferred. Original release
 artifacts and private-issuance receipts are preserved as historical evidence.
+
+## P003 - Publish the frozen report and README spotlight, 2026-09-19
+
+The owner explicitly requested pushing the existing PDF and
+refusal-columns-spotlight.png to the public product repository, with a visible
+README download link, description and embedded image. Publish only those selected
+research artifacts with their scoped report license, provenance and checksums in
+reports/cybersecurity/v0.1.1/. Preserve exact PDF/image bytes and the original
+license; explain historical private-question wording on the report landing page.
+
+Keep report results separate from the software version and immutable reference
+pack. Absolute public README links also work in the curated software archive,
+which excludes the report directory. Preserve dates, challenge-set selection,
+independent FR/usefulness interpretation and coverage limitations. Private model
+responses, judgments, raw HTTP captures and research Git history remain private.
+No new benchmark run, software release, PyPI upload or website deployment.

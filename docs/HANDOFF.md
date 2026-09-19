@@ -1,5 +1,33 @@
 # Product handoff
 
+## Public report and README spotlight - 2026-09-19
+
+Owner explicitly requested publishing the existing report PDF and
+refusal-columns-spotlight.png to GitHub, with a prominent README link and image.
+Added reports/cybersecurity/v0.1.1/ with the exact frozen nine-page PDF, unlabelled
+spotlight PNG, original scoped CC BY 4.0 notice, checksum list and report landing
+page. README and release template show the dated 13-configuration/424-scenario
+comparison, independent score interpretation and incomplete coverage caveats.
+
+The landing page explains that the PDF's historical private-question wording
+predates the now-public approved pack. Its private-research links and references
+to separate aggregate datasets remain historical; this delivery contains the PDF
+and selected chart, not those datasets. Private responses, judgments, raw HTTP
+captures and research history remain private. No result, policy, question, engine
+or existing software release asset changed. Report files stay outside the wheel
+and curated software archive. License scope and decision P003 record the split.
+
+Local validation: all 144 synthetic tests passed without skips; approved pack
+check passed (424 questions, 10 unchanged files, valid reference template);
+software staging selected 80 files and excluded report artifacts. Checked 59
+local documentation links, exact README/template mapping, PDF/image/license
+SHA-256 checksums, all nine rendered PDF pages and the spotlight image. No paid
+provider calls. Hosted workflows and anonymous PDF/image downloads must be
+checked on the pushed commit; see GitHub Actions for their final status.
+
+Publication evidence and PDF render intermediates are ignored under
+.local/report-publication-qa/. Existing v0.1.0a11 tag/assets stay immutable.
+
 ## GitHub public launch completed — 2026-09-19
 
 Owner explicitly confirmed the visibility change. HumanWill Benchmark is now

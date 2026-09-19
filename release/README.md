@@ -7,6 +7,22 @@ cybersecurity tasks. It measures **false refusal** and **answer usefulness**
 separately: willingness to answer does not establish correctness, and an incomplete
 answer is not automatically a refusal.
 
+## Read the benchmark report
+
+[**Download the full report: When security AI withholds help (PDF)**](https://raw.githubusercontent.com/humanwill-ai/humanwill-benchmark/main/reports/cybersecurity/v0.1.1/humanwill-cybersecurity-report-v0.1.1.pdf)
+
+**13 model configurations, 424 selected cybersecurity scenarios.** Our first
+report compares false refusals and answer usefulness, with methodology, coverage
+gaps and tested settings. Results v0.1.1, frozen **15 September 2026**.
+
+[![False-refusal rates across 13 model configurations on 424 selected cybersecurity scenarios; lower is better. Frozen 15 September 2026.](https://raw.githubusercontent.com/humanwill-ai/humanwill-benchmark/main/reports/cybersecurity/v0.1.1/refusal-columns-spotlight.png)](https://raw.githubusercontent.com/humanwill-ai/humanwill-benchmark/main/reports/cybersecurity/v0.1.1/humanwill-cybersecurity-report-v0.1.1.pdf)
+
+These are challenge-set results, not everyday refusal rates or an overall safety
+score. Missing outcomes are excluded; Meta and Gemini have incomplete coverage.
+[Report details, current question access and CC BY 4.0 attribution](https://github.com/humanwill-ai/humanwill-benchmark/tree/main/reports/cybersecurity/v0.1.1).
+
+## Use HumanWill
+
 Use it to compare model/provider configurations, investigate failed or blocked
 responses, and evaluate questions specific to your work. Humans use a command-line
 interface; agents and Python applications use the same operation API. Runs retain
