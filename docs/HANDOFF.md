@@ -1,5 +1,20 @@
 # Product handoff
 
+## README interactive chart link — 2026-09-20
+
+Owner requested updating the GitHub README to use the published Hugging Face
+interactive chart. GitHub Markdown filters iframe/script embeds, so the existing
+spotlight image now links to the Space, with a prominent interactive-chart link
+and instructions for the five-topic hover breakdown. Kept the PDF download and
+frozen-results caveats. Updated the release README template to match; existing
+release assets, report files, question pack and engine are unchanged.
+
+Validation: all 144 offline tests passed without skips; reference-pack check
+passed for 424 questions and ten unchanged files. GitHub's Markdown API rendered
+the image as a link to the correct Space; the Space returned HTTP 200. No paid
+provider calls or new benchmark execution. User explicitly authorized the GitHub
+README edit; commit/push this scoped documentation update to main.
+
 ## Public report and README spotlight - 2026-09-19
 
 Owner explicitly requested publishing the existing report PDF and

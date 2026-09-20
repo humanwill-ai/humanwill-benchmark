@@ -15,7 +15,12 @@ answer is not automatically a refusal.
 report compares false refusals and answer usefulness, with methodology, coverage
 gaps and tested settings. Results v0.1.1, frozen **15 September 2026**.
 
-[![False-refusal rates across 13 model configurations on 424 selected cybersecurity scenarios; lower is better. Frozen 15 September 2026.](https://raw.githubusercontent.com/humanwill-ai/humanwill-benchmark/main/reports/cybersecurity/v0.1.1/refusal-columns-spotlight.png)](https://raw.githubusercontent.com/humanwill-ai/humanwill-benchmark/main/reports/cybersecurity/v0.1.1/humanwill-cybersecurity-report-v0.1.1.pdf)
+[**Explore the interactive chart on Hugging Face →**](https://huggingface.co/spaces/humanwill-ai/cybersecurity-benchmark)
+
+Click the preview below to open the interactive chart, then hover over a model's
+bar to see its false-refusal rates across the five cybersecurity topics.
+
+[![False-refusal rates across 13 model configurations on 424 selected cybersecurity scenarios; lower is better. Frozen 15 September 2026.](https://raw.githubusercontent.com/humanwill-ai/humanwill-benchmark/main/reports/cybersecurity/v0.1.1/refusal-columns-spotlight.png)](https://huggingface.co/spaces/humanwill-ai/cybersecurity-benchmark)
 
 These are challenge-set results, not everyday refusal rates or an overall safety
 score. Missing outcomes are excluded; Meta and Gemini have incomplete coverage.
