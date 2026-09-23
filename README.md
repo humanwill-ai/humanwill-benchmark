@@ -7,6 +7,19 @@ cybersecurity tasks. It measures **false refusal** and **answer usefulness**
 separately: willingness to answer does not establish correctness, and an incomplete
 answer is not automatically a refusal.
 
+## Latest comparison
+
+**18 model configurations, 424 selected cybersecurity scenarios.** The spotlight
+chart below includes Grok 4.7, Opus 5 and 5.5, and GPT-5.6 Sol and GPT-6 Sol.
+It was updated **23 September 2026**; model settings, provider routes and run
+dates vary across this historical comparison.
+
+[![Spotlight chart of false-refusal rates across 18 model configurations on 424 selected cybersecurity scenarios, updated 23 September 2026; lower is better.](docs/assets/refusal-columns-18-models-spotlight-2026-09-23.png)](docs/assets/refusal-columns-18-models-spotlight-2026-09-23.png)
+
+These are challenge-set results, not everyday refusal rates or an overall safety
+score. Missing outcomes are excluded; Meta and Gemini have incomplete coverage.
+[Chart license and attribution](LICENSING.md#later-comparison-chart-cc-by-40).
+
 ## Read the benchmark report
 
 [**Download the full report: When security AI withholds help (PDF)**](https://raw.githubusercontent.com/humanwill-ai/humanwill-benchmark/main/reports/cybersecurity/v0.1.1/humanwill-cybersecurity-report-v0.1.1.pdf)
@@ -17,13 +30,6 @@ gaps and tested settings. Results v0.1.1, frozen **15 September 2026**.
 
 [**Explore the interactive chart on Hugging Face →**](https://huggingface.co/spaces/humanwill-ai/cybersecurity-benchmark)
 
-Click the preview below to open the interactive chart, then hover over a model's
-bar to see its false-refusal rates across the five cybersecurity topics.
-
-[![False-refusal rates across 13 model configurations on 424 selected cybersecurity scenarios; lower is better. Frozen 15 September 2026.](https://raw.githubusercontent.com/humanwill-ai/humanwill-benchmark/main/reports/cybersecurity/v0.1.1/refusal-columns-spotlight.png)](https://huggingface.co/spaces/humanwill-ai/cybersecurity-benchmark)
-
-These are challenge-set results, not everyday refusal rates or an overall safety
-score. Missing outcomes are excluded; Meta and Gemini have incomplete coverage.
 [Report details, current question access and CC BY 4.0 attribution](https://github.com/humanwill-ai/humanwill-benchmark/tree/main/reports/cybersecurity/v0.1.1).
 
 ## Use HumanWill
