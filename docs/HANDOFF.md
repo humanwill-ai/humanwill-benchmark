@@ -1,5 +1,19 @@
 # Product handoff
 
+## Latest 19-model comparison image — 2026-09-29
+
+Owner requested updating the project page with the latest benchmark image.
+README now displays the verified 19-model Spotlight comparison, adding Claude
+Sonnet 5.5. New image bytes retain HumanWill attribution and the scoped CC BY 4.0
+license. The frozen 13-model PDF and its report links remain explicitly historical.
+Model settings, provider routes and dates vary; this is a challenge-set comparison,
+not an overall safety score. No model responses or private review material included.
+
+Validation: 144 offline tests passed with zero skips; approved reference pack
+check passed for all424 questions and10 unchanged files. Published image bytes
+match the audited chart artifact. No engine, scoring or question changes.
+The existing development checkout is separate and its uncommitted work is preserved.
+
 ## README interactive chart link — 2026-09-20
 
 Owner requested updating the GitHub README to use the published Hugging Face

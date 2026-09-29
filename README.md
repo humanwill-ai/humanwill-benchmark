@@ -9,12 +9,12 @@ answer is not automatically a refusal.
 
 ## Latest comparison
 
-**18 model configurations, 424 selected cybersecurity scenarios.** The spotlight
-chart below includes Grok 4.7, Opus 5 and 5.5, and GPT-5.6 Sol and GPT-6 Sol.
-It was updated **23 September 2026**; model settings, provider routes and run
+**19 model configurations, 424 selected cybersecurity scenarios.** The spotlight
+chart below adds Claude Sonnet 5.5 to the previous 18-model comparison.
+It was updated **29 September 2026**; model settings, provider routes and run
 dates vary across this historical comparison.
 
-[![Spotlight chart of false-refusal rates across 18 model configurations on 424 selected cybersecurity scenarios, updated 23 September 2026; lower is better.](docs/assets/refusal-columns-18-models-spotlight-2026-09-23.png)](docs/assets/refusal-columns-18-models-spotlight-2026-09-23.png)
+[![Spotlight chart of false-refusal rates across 19 model configurations on 424 selected cybersecurity scenarios, updated 29 September 2026; lower is better.](docs/assets/refusal-columns-19-models-spotlight-2026-09-29.png)](docs/assets/refusal-columns-19-models-spotlight-2026-09-29.png)
 
 These are challenge-set results, not everyday refusal rates or an overall safety
 score. Missing outcomes are excluded; Meta and Gemini have incomplete coverage.
