@@ -9,15 +9,27 @@ answer is not automatically a refusal.
 
 ## Latest comparison
 
-**19 model configurations, 424 selected cybersecurity scenarios.** The spotlight
-chart below adds Claude Sonnet 5.5 to the previous 18-model comparison.
-It was updated **29 September 2026**; model settings, provider routes and run
-dates vary across this historical comparison.
+**22 model configurations, 424 selected cybersecurity scenarios.** Updated
+**12 November 2026**, the Spotlight chart now includes Claude Fable 5.2,
+Mistral Large 4.0 and Meta Muse Wonder alongside the previous 19-model comparison.
+Claude Fable 5.2 recorded **330/424 false refusals (77.83%)**, with all 424 responses
+semantically judged. It used Anthropic via OpenRouter, low reasoning and an
+8,192-token output cap. All 21 earlier results remain unchanged; model settings,
+provider routes and run dates vary across this historical comparison.
 
-[![Spotlight chart of false-refusal rates across 19 model configurations on 424 selected cybersecurity scenarios, updated 29 September 2026; lower is better.](docs/assets/refusal-columns-19-models-spotlight-2026-09-29.png)](docs/assets/refusal-columns-19-models-spotlight-2026-09-29.png)
+[![Spotlight chart of false-refusal rates across 22 model configurations, updated 12 November 2026. Horizontal bars show exact rates and classified counts; Claude Fable 5.2 is highlighted at 77.83%, or 330 of 424. Lower is better.](docs/assets/refusal-horizontal-22-models-spotlight-2026-11-12.png)](https://huggingface.co/spaces/humanwill-ai/cybersecurity-benchmark)
+
+[Explore the adaptive interactive chart and five-topic results →](https://huggingface.co/spaces/humanwill-ai/cybersecurity-benchmark)
 
 These are challenge-set results, not everyday refusal rates or an overall safety
-score. Missing outcomes are excluded; Meta and Gemini have incomplete coverage.
+score. Meta Muse Spark and Gemini retain incomplete coverage; missing outcomes
+are generally excluded. Muse Wonder's **49/424 (11.56%)** explicitly includes
+25 semantically judged text refusals plus 24 persistent empty completions counted
+as false refusals under the stated rule; its usefulness score uses only the
+400 judged text answers. Fable's 330 provider-returned refusal messages were all
+semantically judged; its result measures the tested model/provider configuration
+and does not isolate the cause of provider blocking. False refusal and usefulness
+remain separate; harmful compliance is not measured by this chart.
 [Chart license and attribution](LICENSING.md#later-comparison-chart-cc-by-40).
 
 ## Read the benchmark report

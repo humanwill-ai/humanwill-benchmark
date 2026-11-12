@@ -60,9 +60,10 @@ software source archive.
 
 ## Later comparison chart: CC BY 4.0
 
-The 18-model and 19-model spotlight figures in
-`docs/assets/refusal-columns-18-models-spotlight-2026-09-23.png` and
-`docs/assets/refusal-columns-19-models-spotlight-2026-09-29.png` are licensed
+The 18-model, 19-model and 22-model Spotlight figures in
+`docs/assets/refusal-columns-18-models-spotlight-2026-09-23.png`,
+`docs/assets/refusal-columns-19-models-spotlight-2026-09-29.png` and
+`docs/assets/refusal-horizontal-22-models-spotlight-2026-11-12.png` are licensed
 under [CC BY 4.0](LICENSES/CC-BY-4.0.txt) for HumanWill's licensable rights.
 Credit **HumanWill — https://humanwill.ai**, retain the license and indicate
 changes. This later comparison is separate from the frozen v0.1.1 report; its

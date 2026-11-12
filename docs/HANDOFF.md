@@ -1,5 +1,31 @@
 # Product handoff
 
+## Latest 22-model Spotlight comparison — 2026-11-12
+
+The owner requested a new Spotlight chart and an updated Latest comparison
+paragraph on the GitHub project page. README now shows 22 model configurations,
+adding Mistral Large 4.0, Meta Muse Wonder and Claude Fable 5.2 to the previous
+19-model snapshot. Fable records 330/424 false refusals (77.83%); all 424 responses
+were semantically judged. All 21 earlier results and denominators are preserved.
+
+The 2400 × 2550 horizontal Spotlight figure keeps names, exact percentages and
+classified counts readable, highlights Fable in gold and marks incomplete
+coverage. It links to the adaptive Hugging Face chart. Both the image and README
+retain the historical-setting caveat and Wonder's explicit 25 + 24 counting rule;
+false refusal, usefulness and harmful compliance remain distinct. License scope
+includes the new figure under CC BY 4.0 with HumanWill attribution. The frozen
+13-model PDF, release assets, framework and question pack remain unchanged.
+
+Source aggregate SHA-256:
+`3b60f0957784d14c02d74dd3b859fdc0a97eadd5e81a6efc1c2f64f6b5c0ba08`.
+PNG SHA-256:
+`8dc124b20752a03c63b36937ccee0c2c71e18227bd30685d767b6bd05b234560`.
+Validation: all 132 aggregate values and 22 plotted bar widths checked; label
+bounds and spacing checked; final image visually reviewed. All 144 offline tests
+passed without skips. Reference-pack check passed for 424 questions and ten
+unchanged files. Changes prepared in an isolated clean public-repository clone;
+no private responses, prompts or review records included. No model calls.
+
 ## Latest 19-model comparison image — 2026-09-29
 
 Owner requested updating the project page with the latest benchmark image.
