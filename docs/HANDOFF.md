@@ -1,5 +1,27 @@
 # Product handoff
 
+## Latest 24-model Spotlight comparison — 2026-11-18
+
+The GitHub README now highlights OpenAI GPT-6.2 Astra and GPT-6.2 Sol in the
+24-configuration comparison of 424 selected cybersecurity scenarios. Astra
+recorded 329/424 false refusals (77.59%) and mean judged usefulness 2.2925/4.
+Sol recorded 337/424 (79.48%) and 2.2311/4. Their totals include 51 and 53
+structured cyber-policy blocks, respectively, scored as full refusals with
+zero usefulness under the benchmark's existing rule. Both runs used OpenAI via
+OpenRouter, low reasoning and an 8,192-token output cap.
+
+The dark 2400 × 2750 Spotlight image highlights both configurations in gold and
+links to the interactive comparison. Checked all 144 overall/topic rates
+against the interactive chart data, checked all 24 bar widths and label spacing,
+and visually reviewed the image. All 144 offline product tests passed without
+skips. The reference-pack check validated 424 questions and ten delivery files.
+
+Source aggregate SHA-256:
+`b30d4d055dd87525857e586b20717b59811b47a1a3265041338c9a68dd9f9a8e`.
+Spotlight PNG SHA-256:
+`45a8d1b56d50b8d12f7232b78529d92ccb1a8ed2db8169889f3ac82da691df91`.
+The publication adds only the aggregate chart and associated documentation.
+
 ## Latest 22-model Spotlight comparison — 2026-11-12
 
 The owner requested a new Spotlight chart and an updated Latest comparison

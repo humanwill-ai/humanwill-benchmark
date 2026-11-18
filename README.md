@@ -9,27 +9,27 @@ answer is not automatically a refusal.
 
 ## Latest comparison
 
-**22 model configurations, 424 selected cybersecurity scenarios.** Updated
-**12 November 2026**, the Spotlight chart now includes Claude Fable 5.2,
-Mistral Large 4.0 and Meta Muse Wonder alongside the previous 19-model comparison.
-Claude Fable 5.2 recorded **330/424 false refusals (77.83%)**, with all 424 responses
-semantically judged. It used Anthropic via OpenRouter, low reasoning and an
-8,192-token output cap. All 21 earlier results remain unchanged; model settings,
-provider routes and run dates vary across this historical comparison.
+**24 model configurations, 424 selected cybersecurity scenarios.** The
+**18 November 2026** update adds OpenAI **GPT-6.2 Astra**, with **329/424 false
+refusals (77.59%)** and mean usefulness **2.29/4**, and **GPT-6.2 Sol**, with
+**337/424 (79.48%)** and **2.23/4**. Both runs used OpenAI via OpenRouter, low
+reasoning and an 8,192-token output cap. Both scored all 424 cases, counting
+51 structured OpenAI cyber-policy blocks for Astra and 53 for Sol as full
+refusals with zero usefulness. Model settings, provider routes and dates vary
+across the historical comparison.
 
-[![Spotlight chart of false-refusal rates across 22 model configurations, updated 12 November 2026. Horizontal bars show exact rates and classified counts; Claude Fable 5.2 is highlighted at 77.83%, or 330 of 424. Lower is better.](docs/assets/refusal-horizontal-22-models-spotlight-2026-11-12.png)](https://huggingface.co/spaces/humanwill-ai/cybersecurity-benchmark)
+[![Spotlight chart of false-refusal rates across 24 configurations. GPT-6.2 Astra is highlighted at 77.59%, or 329 of 424, and GPT-6.2 Sol at 79.48%, or 337 of 424. Lower is better.](docs/assets/refusal-horizontal-24-models-spotlight-2026-11-18.png)](https://huggingface.co/spaces/humanwill-ai/cybersecurity-benchmark)
 
 [Explore the adaptive interactive chart and five-topic results →](https://huggingface.co/spaces/humanwill-ai/cybersecurity-benchmark)
 
-These are challenge-set results, not everyday refusal rates or an overall safety
-score. Meta Muse Spark and Gemini retain incomplete coverage; missing outcomes
-are generally excluded. Muse Wonder's **49/424 (11.56%)** explicitly includes
+Results describe the selected challenge set and the tested model/provider
+configurations. Meta Muse Spark and Gemini have incomplete coverage, and the
+chart uses their classified-case denominators. Muse Wonder's **49/424 (11.56%)** includes
 25 semantically judged text refusals plus 24 persistent empty completions counted
 as false refusals under the stated rule; its usefulness score uses only the
-400 judged text answers. Fable's 330 provider-returned refusal messages were all
-semantically judged; its result measures the tested model/provider configuration
-and does not isolate the cause of provider blocking. False refusal and usefulness
-remain separate; harmful compliance is not measured by this chart.
+400 judged text answers. Claude Fable 5.2's **330/424 (77.83%)** comprises
+semantically judged refusal messages. False refusal and judged usefulness are
+separate metrics. Harmful compliance falls outside the scope of this comparison.
 [Chart license and attribution](LICENSING.md#later-comparison-chart-cc-by-40).
 
 ## Read the benchmark report
